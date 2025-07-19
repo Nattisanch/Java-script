@@ -1,1 +1,1 @@
-Hello welcome to my Github! This repo is my work with Javascript!
+This repository shows my work with Javascript as well as me learning new things within Javascript 
