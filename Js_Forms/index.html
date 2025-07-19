@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concepts Assignment - Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Two text inputs and one number input. The text inputs will capture a person's first and last name. The number input will capture their age.-->
+    <form id="form_one">
+        <h1>First Form</h1>
+        <div>
+    <!--First Name-->
+            <label for="first-name">First Name <input name="firstName" autocomplete="off" type="text" id="first-name" placeholder="Enter First Name"></label>
+        </div>
+    <!--Last name-->
+        <div>
+            <label for="first-name">Last Name <input name="lastName"autocomplete="off" type="text" id="last-name" placeholder="Enter Last Name"></label>
+        </div>
+        <!--Age-->
+        <div>
+            <label for="age">Age <input name="userAge" autocomplete="off" type="number" id="age" placeholder="Enter your age"></label>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <div id="form_one_results">
+
+        </div>
+    </form>
+    
+    <form id="form_two">
+        <h1>Second Form</h1>
+        <div>
+            <!--Lucku Number-->
+            <label for="luckynum">Lucky Number <input name="luckyNumber"autocomplete="off" type="number" id="luckynum" placeholder="Enter a lucky number"></label> 
+            +
+        </div>
+        <div>
+            <!--Random Number-->
+             <label for="randomnum">Random Number <input name="randomNumber" autocomplete="off" type="number" id="randomnum" placeholder="Enter a Random Number"></label>
+              =
+            <span id="form_two_results"></span>
+        </div>
+        <div>
+        <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

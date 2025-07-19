@@ -1,0 +1,28 @@
+
+/*I tried to make it look pretty but I'll learn more css on my own time*/
+body{
+    margin:0;
+    background-color: #fbe0ca;
+}
+
+form{
+    background-color: #bd9153;
+    border-radius: 10px;
+    width: 50%;
+}
+form label{
+    font-weight: bold;
+}
+
+form input{
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+div{
+    padding: 5px;
+}
